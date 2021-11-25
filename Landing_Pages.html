@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<!-- when this include, browser will recognize its a HTML -->
+
+<html>
+
+<head>
+    <title>Landing Pages</title>
+
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" /> -->
+
+    <!-- link is a self closing tag -->
+
+    <link rel="stylesheet" href="font-awesome.css" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div#container {
+            width: 2125px;
+            height: 4096px;
+            border-width: 2px;
+            border-color: black;
+            border-style: solid;
+            /* shorthand margin */
+            /* margin: 50px 100px; */
+            margin: 0 auto;
+            /* margin to make box at center */
+            background-image: url("images/bg-1.png");
+            /* background-size: 30px;
+            background-repeat: no-repeat; */
+            position: relative;
+            z-index: 6;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        header {
+            width: 1250px;
+            height: 140px;
+            /* background-color: lightgreen; */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            box-sizing: border-box;
+
+            /* flex: 2; */
+        }
+
+        ul#menu li {
+            display: inline-block;
+            /* background-color: black; */
+            padding-left: 30px;
+            /* position: absolute; */
+            /* left: 20px; */
+        }
+
+        section#sec1 {
+            width: 1250px;
+            height: 600px;
+            /* background-color: black; */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px 0;
+            box-sizing: border-box;
+            /* flex: 1; */
+        }
+
+        div#virt_words {
+            width: 625px;
+            height: 300px;
+            /* background-color: green; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: baseline;
+            padding: 15px 0;
+        }
+
+        div#virt_pic {
+            width: 625px;
+            height: 600px;
+            /* background-color: skyblue; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 15px 0;
+        }
+
+        section#sec2 {
+            width: 1250px;
+            height: 200px;
+            /* background-color: lightgreen; */
+            text-align: center;
+            padding-top: 50px;
+            box-sizing: border-box;
+        }
+
+        section#sec3-1 {
+            width: 1250px;
+            height: 380px;
+            /* background-color: blue; */
+            text-align: center;
+            padding-top: 100px;
+            box-sizing: border-box;
+        }
+
+        section#sec3-2 {
+            width: 1250px;
+            height: 380px;
+            /* background-color: yellow; */
+            text-align: center;
+            padding-top: 100px;
+            box-sizing: border-box;
+        }
+
+        div.item {
+            width: 300px;
+            height: 270px;
+            background-color: white;
+            border-radius: 10%;
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+
+        }
+
+        section#sec4 {
+            width: 1250px;
+            height: 600px;
+            background-color: slategrey;
+            /* flex: 1; */
+        }
+
+        section#sec5 {
+            width: 1250px;
+            height: 600px;
+            background-color: skyblue;
+            /* flex: 1; */
+        }
+
+        section#sec6 {
+            width: 1250px;
+            height: 600px;
+            background-color: slategrey;
+            /* flex: 1; */
+        }
+
+        section#sec7 {
+            width: 1250px;
+            height: 600px;
+            background-color: skyblue;
+            /* flex: 1; */
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+
+
+        ul#social-holder li {
+            margin: 0 10px;
+        }
+
+        i.fab {
+            color: pink;
+        }
+
+
+        i.fas {
+            color: pink;
+        }
+
+        ul#menu li {
+            margin: 10px 0;
+        }
+
+        i.fas {
+            width: 30px;
+            margin-right: 20px;
+        }
+
+        div#products {
+            width: inherit;
+            height: 160px;
+            /* background-color: yellow; */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="container">
+
+        <header>
+            <h1 id="logo">Logo Here</h1>
+            <ul id="menu">
+                <li>Home</li>
+                <li>Find a doctor</li>
+                <li>Apps</li>
+                <li>Testimonial</li>
+                <li>About us</li>
+            </ul>
+
+        </header>
+
+
+
+        <section id="sec1">
+
+            <div id="virt_words">
+                <h1>Virtual healthcare for you</h1>
+                <p>
+                    Trafalgar provides progressive, and affordable healthcare, accessible on mobile for everyone</p>
+                <p><button type="submit">Consult today</button></p>
+            </div>
+
+            <div id="virt_pic">
+                <img src="images/illustration.png" />
+            </div>
+
+        </section>
+
+        <!-- section 1 end here............................. -->
+        <section id="sec2">
+            <h1>Our services</h1>
+            <p>_________</p>
+            <p>We provide to you choices for you. Adjust it to your health needs and make sure your undergo
+                treatment
+                with our highly qualified doctors you can consult with us which type of services is suitble for your
+                health</p>
+        </section>
+
+
+        <section id="sec3-1">
+            <div id="products">
+                <div class="item">
+                    <img src="images/Frame-1.png" />
+                    <h1>Item Number One</h1>
+                </div>
+                <div class="item"></div>
+                <div class="item"></div>
+
+
+            </div>
+
+        </section>
+
+
+        <section id="sec3-2">
+            <div id="products">
+                <div class="item">
+                    <img src="images/Frame-1.png" />
+                    <h1>Item Number One</h1>
+                </div>
+                <div class="item"></div>
+                <div class="item"></div>
+
+
+            </div>
+
+        </section>
+
+        <section id="sec4"></section>
+        <section id="sec5"></section>
+        <section id="sec6"></section>
+        <section id="sec7"></section>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!-- when this include, browser will recognize its a HTML -->
+
+<html>
+
+<head>
+    <title>Display Flex</title>
+
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" /> -->
+
+    <!-- link is a self closing tag -->
+
+    <link rel="stylesheet" href="font-awesome.css" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div#container {
+            width: 900px;
+            height: 600px;
+            border-width: 2px;
+            border-color: black;
+            border-style: solid;
+            /* shorthand margin */
+            /* margin: 50px 100px; */
+            margin: 0 auto;
+            /* margin to make box at center */
+            background-image: url("images/bg-1.png");
+            /* background-size: 30px;
+            background-repeat: no-repeat; */
+            position: relative;
+            z-index: 6;
+            display: flex;
+            flex-direction: row;
+        }
+
+        header {
+            width: 300px;
+            height: 600px;
+            background-color: lightgreen;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            box-sizing: border-box;
+
+            /* flex: 2; */
+        }
+
+        section {
+            width: 600px;
+            height: 600px;
+            background-color: skyblue;
+            /* flex: 1; */
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul#social-holder {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        ul#social-holder li {
+            margin: 0 10px;
+        }
+
+        i.fab {
+            color: pink;
+        }
+
+
+        i.fas {
+            color: pink;
+        }
+
+        ul#menu li {
+            margin: 10px 0;
+        }
+
+        i.fas {
+            width: 30px;
+            margin-right: 20px;
+        }
+
+        div#products {
+            width: inherit;
+            height: 160px;
+            /* background-color: yellow; */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        div.item {
+            width: 150px;
+            height: 150px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="container">
+
+        <header>
+            <h1>Logo Here</h1>
+            <ul id="menu">
+                <li><i class="fa fa-home"></i>Home</li>
+                <li><i class="fa fa-address-card"></i>About</li>
+                <li><i class="fa fa-phone"></i>Contact </i></li>
+            </ul>
+
+            <ul id="social-holder">
+                <li><i class="fa fa-facebook"></i></li>
+                <li><i class="fa fa-youtube"></i></li>
+                <li><i class="fa fa-twitter"></i></li>
+                <!-- why fa instead of fab -->
+            </ul>
+        </header>
+
+        <section>
+            <div id="products">
+                <div class="item">
+                    <img src="images/Frame-1.png" />
+                    <h1>Item Number One</h1>
+                </div>
+
+                <div class="item"></div>
+
+                <div class="item"></div>
+
+            </div>
+
+            <div class="item"></div>
+
+        </section>
+
+
+        <div id="header">
+            <h1></h1>
+            <ul></ul>
+            <div></div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>
